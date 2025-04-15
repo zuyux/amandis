@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Twitter, Heart } from "lucide-react"
+import { Github, Origami, Heart } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -37,12 +37,12 @@ export default function Footer() {
             <h3 className="text-sm font-medium">Resources</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <Link href="https://nostr.com" target="_blank" className="text-muted-foreground transition-colors hover:text-primary">
                   About Nostr
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <Link href="https://youtu.be/fOGdb1CTu5c" target="_blank" className="text-muted-foreground transition-colors hover:text-primary">
                   Zero-Knowledge Proofs
                 </Link>
               </li>
@@ -57,17 +57,17 @@ export default function Footer() {
             <h3 className="text-sm font-medium">Connect</h3>
             <div className="flex space-x-4">
               <Link
-                href="https://github.com/amandis"
+                href="https://github.com/zuyux/amandis"
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="https://twitter.com/amandisapp"
+                href="https://njump.me/npub1hs9882scwhyv8s9ckqghqd9eet9ndr5y0mwd96sr4vmk8ykqppasr7m0s3"
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
-                <Twitter className="h-5 w-5" />
+                <Origami className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
             </div>

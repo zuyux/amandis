@@ -11,12 +11,29 @@ export default function Waitlist() {
   const [email, setEmail] = useState("")
   const [submitted, setSubmitted] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Here you would typically send the email to your backend
-    console.log("Email submitted:", email)
-    setSubmitted(true)
+  
+    try {
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      })
+  
+      if (res.ok) {
+        setSubmitted(true)
+      } else {
+        const error = await res.json()
+        console.error("Error:", error)
+        alert("Something went wrong. Please try again.")
+      }
+    } catch (err) {
+      console.error("Submit failed:", err)
+      alert("There was a problem. Try again later.")
+    }
   }
+  
 
   return (
     <section className="py-20 bg-gradient-to-br from-primary/10 via-accent/10 to-background">
