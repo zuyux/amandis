@@ -16,30 +16,6 @@ Amandis is a decentralized dating app that leverages Nostr technology and zero-k
 - **Privacy**: Nostr protocol and zero-knowledge proofs
 - **Deployment**: Vercel
 
-## 📁 Project Structure
-
-```
-amandis/
-├── app/                  # Next.js App Router
-│   ├── components/       # App-specific components
-│   ├── globals.css       # Global styles
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Home page
-├── components/           # Shared components
-│   ├── ui/               # UI components from shadcn/ui
-│   ├── features.tsx      # Features section
-│   ├── footer.tsx        # Footer component
-│   ├── hero.tsx          # Hero section
-│   ├── how-it-works.tsx  # How it works section
-│   ├── navbar.tsx        # Navigation bar
-│   ├── privacy.tsx       # Privacy section
-│   ├── testimonials.tsx  # Testimonials section
-│   └── waitlist.tsx      # Waitlist form
-├── lib/                  # Utility functions
-├── public/               # Static assets
-└── tailwind.config.js    # Tailwind configuration
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -51,7 +27,7 @@ amandis/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/amandis.git
+   git clone https://github.com/zuyux/amandis.git
    cd amandis
 ```
 
@@ -80,7 +56,7 @@ yarn dev
 
 ### Nostr Protocol
 
-Amandis uses the Nostr (Notes and Other Stuff Transmitted by Relays) protocol, a simple, open protocol that enables global, decentralized, and censorship-resistant social media. This allows users to:
+Amandis uses the [Nostr(]https://nostr.com) (Notes and Other Stuff Transmitted by Relays) protocol, a simple, open protocol that enables global, decentralized, and censorship-resistant social media. This allows users to:
 
 - Own their identity through cryptographic keys
 - Control their data and decide what to share
@@ -115,14 +91,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-- Website: [amandis.app](https://amandis.app)
-- Twitter: [@amandisapp](https://twitter.com/amandisapp)
-- GitHub: [github.com/amandis](https://github.com/amandis)
+- Website: [amandis.vercel.app](https://amandis.vercel.app)
+- Nostr: [@amandis](https://njump.me/npub1hs9882scwhyv8s9ckqghqd9eet9ndr5y0mwd96sr4vmk8ykqppasr7m0s3)
+- GitHub: [github.com/zuyux/amandis](https://github.com/zuyux/amandis)
 
 
 ---
 
 Built with ❤️ for privacy and genuine connections
-```
-
-```
