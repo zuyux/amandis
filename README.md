@@ -1,7 +1,5 @@
 # Amandis - Privacy-First Decentralized Dating App
 
-![Amandis](https://placeholder.svg?height=200&width=600&text=Amandis)
-
 Amandis is a decentralized dating app that leverages Nostr technology and zero-knowledge proofs (ZKP) to connect people without compromising their privacy. It's open-source and free for users, allowing everyone to control their keys and data.
 
 ## 🌟 Features
