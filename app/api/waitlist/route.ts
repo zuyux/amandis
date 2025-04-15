@@ -18,7 +18,7 @@ export async function POST(req: Request) {
 
   const adminMail = {
     from: `"Amandis Waitlist" <${process.env.SMTP_USER}>`,
-    to: process.env.ADMIN_EMAIL,
+    to: process.env.SMTP_USER,
     subject: "🚀 Nuevo usuario en la lista de espera",
     text: `Un nuevo usuario se ha registrado en Amandis: ${email}`,
   }
