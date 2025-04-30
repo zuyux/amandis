@@ -36,7 +36,7 @@ export default function Waitlist() {
   
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/10 via-accent/10 to-background">
+    <section id="waitlist" className="py-20 bg-gradient-to-br from-primary/10 via-accent/10 to-background">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Join the Waitlist</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto text-muted-foreground">
